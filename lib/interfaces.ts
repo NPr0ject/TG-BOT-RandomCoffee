@@ -3,11 +3,8 @@ export interface UserInfo {
   name: string;
   age: number;
   interests: string[];
-  lat: number;
-  long: number;
-  time: string;
+  time: number;
+  coffee: number;
   state: string;
-  rating: number;
   done: boolean;
 }
-
