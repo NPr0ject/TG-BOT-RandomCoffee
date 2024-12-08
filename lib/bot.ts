@@ -12,7 +12,7 @@ const supabase = createClient(
 const supabaseUrl = "https://goscxscwzyizqwwwiyxe.supabase.co";
 const supabaseKey = Deno.env.get("SUPABASE_KEY") || "";
 const supabase = createClient(supabaseUrl, supabaseKey);
-export const users = supabase.from("users");*/
+export const users = supabase.from("users");*/ // выпелил тк нашёл что подругому объявляется эта сука
 
 //объявил бота
 export const bot = new Bot<Context>(Deno.env.get("BOT_TOKEN") || "7864266027:AAGJL9Dm7MK-GrBj_iRoTd_3wE1u5q-_lZw"); // тут дописать
