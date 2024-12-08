@@ -217,7 +217,8 @@ bot.on("message", async (ctx) => {
     }
   }
 });
-
+// пу пу пу
+//скажем что хуйня
 while (info.state == "searching") {
   setInterval(async ()=>{
     const users = await getSimularUsers()
