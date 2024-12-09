@@ -3,16 +3,16 @@ import { menuKeyboard, yesOrNo } from "./keyboards.ts"; // импорт клав
 import { getProfile, reviewProfile, setState, getSimularUsers } from "./functions.ts"; //импорт функций
 //import { createClient } from "npm:@supabase/supabase-js"; // database
 import { UserInfo } from "./interfaces.ts";
-/*import { createClient } from "jsr:@supabase/supabase-js@2";
+import { createClient } from "jsr:@supabase/supabase-js@2";
 const supabase = createClient(
   Deno.env.get("https://goscxscwzyizqwwwiyxe.supabase.co")!,
   Deno.env.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdvc2N4c2N3enlpenF3d3dpeXhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM2ODkwMDYsImV4cCI6MjA0OTI2NTAwNn0.WmLJMzxmMvdF8T9Gncd1L6oem0d7C6ZtHVTKIqzdviw")!,
 );
-*/
+/*
 // инициализация supabase
 const supabaseUrl = "https://goscxscwzyizqwwwiyxe.supabase.co";
 const supabaseKey = Deno.env.get("SUPABASE_KEY") || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdvc2N4c2N3enlpenF3d3dpeXhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM2ODkwMDYsImV4cCI6MjA0OTI2NTAwNn0.WmLJMzxmMvdF8T9Gncd1L6oem0d7C6ZtHVTKIqzdviw";
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabase = createClient(supabaseUrl, supabaseKey);*/
 //export const users = supabase.from("users"); // выпелил тк нашёл что подругому объявляется эта сука
 
 //объявил бота
